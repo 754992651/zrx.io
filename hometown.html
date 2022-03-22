@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=e34032342a86dd7ef041d103a11648af"></script>
+    <style type="text/css">
+
+        #title {
+            text-align: center;
+            color: red;
+        }
+
+        html {
+            height: 100%;
+            text-align: center;
+        }
+
+        body {
+            height: 100%;
+            margin: 0px;
+            padding: 0px
+        }
+
+        #container {
+            height: 60%;
+            width: 40%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">广东省中山市三乡镇</h1>
+    <br />
+    <div id="container"></div>
+    <script>
+        var map = new AMap.Map('container', {
+            zoom: 14, 
+            center: [113.432588, 22.356318], 
+            viewMode: '3D' 
+        });
+    </script>
+    <br />
+    <p>三乡名产-三乡濑粉</p>
+    <img src="../image/laifen.png" width="600" height="400">
+    <br/>
+    <a href="MainPage.html">返回主页</a>
+
+</body>
+</html>
